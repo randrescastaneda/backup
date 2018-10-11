@@ -1,0 +1,2 @@
+# backup
+backup Copies any type of file maintaining the permissions, attributes, owner information, timestamps and properties of the objects copied. It uses the DOS command-line ROBOCOPY to perform the backup, so it only works over Windows for now. backup is very useful as one of the instructions of the profile.do in which you can set which files or folders are desired to be backed up each time Stata is started. In addition, backup might be used at the beginning or ending of any do-file in order to ensure a backup of all the files developed in a project.  
